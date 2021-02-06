@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+.currentImage {
+    opacity: 1;
+}
+
+.nextImage {
+    opacity: 0;
+}
+
+.carousel {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+}
+
+.slideImg {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.controlWrapper{
+    margin-top: 15px;
+}
